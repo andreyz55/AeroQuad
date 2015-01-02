@@ -523,7 +523,8 @@
     #define BMP085
   #endif
   #ifdef AltitudeHoldRangeFinder
-    #define XLMAXSONAR 
+//    #define XLMAXSONAR 
+    #define US100SONAR
   #endif
 
 
@@ -623,7 +624,7 @@
     #define HMC5843
   #endif
   #ifdef AltitudeHoldRangeFinder
-    #define XLMAXSONAR 
+    #define XLMAXSONAR
   #endif
 
 
@@ -1157,6 +1158,9 @@
 #endif
 #if defined(XLMAXSONAR)
   #include <MaxSonarRangeFinder.h>
+#endif 
+#if defined(US100SONAR)
+  #include <USRangeFinder.h>
 #endif 
 //********************************************************
 //*************** BATTERY MONITOR DECLARATION ************

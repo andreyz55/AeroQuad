@@ -34,9 +34,10 @@
 
 float rangeFinderRange[5]      = {-2,-2,-2,-2,-2};
 
-float maxRangeFinderRange = 4.5;
-float minRangeFinderRange = 0.0;
-
+//float maxRangeFinderRange = 4.5;
+//float minRangeFinderRange = 0.0;
+float maxRangeFinderRange = 2.0;
+float minRangeFinderRange = 0.1;
 
 void    inititalizeRangeFinders();
 void    updateRangeFinders();
